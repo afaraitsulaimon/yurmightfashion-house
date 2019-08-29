@@ -1,0 +1,179 @@
+.flex-container{
+
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #db1c81;
+ }
+
+.flex-container > ul {
+   width: 80%;
+	display: inline-flex;
+	list-style: none;
+
+}
+
+.flex-container > ul .push{
+margin-left: auto;
+}
+
+.flex-container > ul li{
+   padding: 30px 15px 15px 15px;
+}
+
+.flex-container > ul li a{
+   
+   font-size: 1.5em;
+   text-decoration: none;
+}
+
+.flex-container > ul li a:hover{
+   color: orange;
+}
+
+.fade-background{
+
+  height: 100%;
+  background-color: rgba(219,28,129,0.3);
+
+}
+
+.fade-background p{
+
+	text-align: center;
+	font-family: 'Gayathri', sans-serif;
+    word-spacing: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+.fade-background h1{
+    color: #2572a8;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.fade-background button{
+	width: 15%;
+    height: 10%;
+	margin-left: 42%;
+	margin-top: 40px;
+	margin-bottom: 200px;
+	background-color: #2572a8;
+	border:3px solid white;
+	border-radius: 10px;
+}
+
+
+.fade-background button:hover{
+	  
+	  background-color: #db1c81;
+	}
+
+
+
+.fade-background button a{
+	color: white;
+  text-decoration: none;
+}
+
+.service-head h3{
+    font-family: 'Chilanka', cursive;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 40px;
+
+}
+
+.native-wear p{
+
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.official-wear p{
+
+text-align: center;
+font-weight: bold;
+padding-top: 20px;
+
+}
+
+.allNativeWears p{
+
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.senatorWears p{
+
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.aboutUs-top h2{
+
+     font-family: 'Chilanka', cursive;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 40px;
+}
+
+.aboutUs p{
+    margin-top:13px;
+	background-color:#17a2b8 ;
+
+}
+
+
+.aboutUs p{
+
+	text-align: center;
+	font-family: times;
+	font-size: 1.6em;
+	padding-top: 20px;
+	padding-bottom: 10px;
+
+}
+.aboutUs p::first-letter{
+
+	font-size: 2em;
+}
+
+
+.contactUs-top h2{
+
+     font-family: 'Chilanka', cursive;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 40px;
+}
+
+.contactDetails h5{
+    padding-top: 30px;
+}
+
+.contactDetails h3, h5, p{
+
+	text-align: center;
+	font-family: monospace;
+	font-size: 1.5em;
+}
+
+
+.socialMedia li a{
+   font-size: 40px;
+   padding-right: 30px;
+}
+
+
+.socialMedia li a:hover{
+   color: red;
+}
