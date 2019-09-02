@@ -2,7 +2,6 @@
 
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #db1c81;
  }
 
 .flex-container > ul {
@@ -28,6 +27,7 @@ margin-left: auto;
 
 .flex-container > ul li a:hover{
    color: orange;
+   border-bottom: 2px solid orange;
 }
 
 .fade-background{
@@ -177,3 +177,11 @@ padding-top: 20px;
 .socialMedia li a:hover{
    color: red;
 }
+
+
+/** PORTFOLIO CSS STARTS FROM HERE **/
+​
+
+/** PORTFOLIO CSS ENDS HERE **/
+
+
